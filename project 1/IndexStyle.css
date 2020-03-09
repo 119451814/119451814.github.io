@@ -1,0 +1,94 @@
+*
+{
+	 padding: 0;
+	 margin: 0;
+	 box-sizing: border-box;
+}
+body
+{
+	background-image: url(https://www.nkc.ie/wp-content/uploads/2018/01/Starting-a-Business-%E2%80%93-Sole-Trader-Partnership-or-Company_590066168.jpg) ;
+	background-size: cover;
+	background-position: left;
+	font-family: sans-s;
+}
+.dropdown
+{
+	background: #009999;
+	text-align: center;
+}
+.dropdown ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.dropdown ul li
+{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+.dropdown ul li a 
+{
+	text-decoration: none;
+	color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+	background: #2bab0d;
+	border-radius: 3px;
+}
+.sub-menu
+{
+	display: none;
+}
+.dropdown ul li:hover  .sub-menu
+{
+	display: block;
+	position: absolute;
+    background: #009999;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.dropdown ul li:hover  .sub-menu ul
+{
+	display: block;
+	margin: 10px;
+}
+.dropdown ul li:hover  .sub-menu ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.dropdown ul li:hover  .sub-menu ul li a:hover
+{
+	color: #b2ff00;
+}
+h1
+{
+	text-align: center;
+	text-transform: uppercase;
+	font-style: normal;
+	font-size: 100px
+}
+p
+{
+	text-align: center;
+	font-style: italic;
+	font-size: 50px;
+}
+
+
+	
+	
+
+
+	
+
+	
+	
+	
