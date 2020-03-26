@@ -1,0 +1,126 @@
+{
+	 padding: 0;
+	 margin: 0;
+	 box-sizing: border-box;
+}
+body
+{
+	background-color:  #f5f5f0;
+}
+.dropdown
+{
+	background: black;
+	text-align: center;
+}
+.dropdown ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.dropdown ul li
+{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+.dropdown ul li a 
+{
+	text-decoration: none;
+	color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+	background: #2bab0d;
+	border-radius: 3px;
+}
+.sub-menu
+{
+	display: none;
+}
+.dropdown ul li:hover  .sub-menu
+{
+	display: block;
+	position: absolute;
+    background: black;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.dropdown ul li:hover  .sub-menu ul
+{
+	display: block;
+	margin: 10px;
+}
+.dropdown ul li:hover  .sub-menu ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.dropdown ul li:hover  .sub-menu ul li a:hover
+{
+	color: #b2ff00;
+}
+h1
+{
+	text-align: center;
+    color: #005ce6;
+	font-size: 50px;
+}
+p
+{
+	text-align: center;
+    color: black;
+	font-size: 30px;
+	border-bottom: 1px dotted #fff;
+}
+h2
+{
+	text-align:center;
+	color: Orange;
+	font-size: 30px;
+}
+table, th, td 
+{
+  border: 1px solid black;
+  text-align: center;
+}
+img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+	
+	 body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: powderblue;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 25px 30px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.topnav a:hover {
+  background-color: powderblue;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: powderblue;
+  color: white;
+}
